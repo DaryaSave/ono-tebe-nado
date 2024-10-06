@@ -29,17 +29,22 @@
     width: 148px;
     height: 105px;
 }
+.adress {
+  width: 240.52px;
+  height: 98px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  letter-spacing: 0.01em;
+  text-underline-offset: 5px;
+}
 .header__address {
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.3px;
-    letter-spacing: 0.01em;
     margin: 5px 25.48px 2px 184px;
+    font-style: normal;
 }
 .cover {
     background-image: url(../images/cover.jpg);
-    height: 757px;
+    min-height: 757px;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -63,21 +68,19 @@
     line-height: 1.15;
     letter-spacing: 30px;
     text-transform: uppercase;
-    top: 165px;
-    left: 50px;
-    bottom: 237px;
+    margin: 165px 50px 135px;
     width: 1000px;
-    height: 355px;
+    line-height: 355px;
   }
   .aligned-text {
-    font-family: Raleway;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
     letter-spacing: 0.3em;
     text-align: left;
     width: 417px;
-    height: 110px;
+    line-height: 110px;
   }
   .letter-spacing-extended {
     margin-left: 30px;
@@ -87,6 +90,7 @@
   }
   .aligned-text_center {
     margin:10px 395px 10px 286px;
+    text-align: center;
   }
   .aligned-text_right {
     margin:10px 50px 10px 583px;
@@ -109,10 +113,11 @@
     text-align: left;
     z-index: 2;
     width: 637px;
-    height: 28px;
+    line-height: 28px;
     margin: 12px 0px 11px 0px;
 }
 .bet-button {
+  cursor: pointer;
   background: transparent;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 22px;
@@ -122,7 +127,7 @@
   text-transform: uppercase;
   color: #fff;
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   border: 1px solid #fff;
   z-index: 2;
 }
@@ -172,7 +177,7 @@
       margin: 51px 40px 0px;
       font-size: 22px;
       font-weight: 700;
-      line-height: 26.4px;
+      line-height: initial;
       text-transform: uppercase;
       text-decoration: underline solid;
       color: #fff;
@@ -182,7 +187,7 @@
       margin: 0px 40px 48px;
       font-size: 20px;
       font-weight: 400;
-      line-height: 24px;
+      line-height: initial;
       color: #fff;
       z-index: 2;
   }
@@ -190,18 +195,14 @@
       display: block;
       font-size: 20px;
       font-weight: 400;
-      line-height: 23.48px;
+      min-height: 23.48px;
       padding: 30px 0 0 40px;
       text-underline-offset: 4px;
   }
   .about {
     width: 1052px;
-    height: 595px;
+    min-height: 595px;
     margin: 146px 24px 180px;
-  }
-  .about__column {
-    width: 1052px;
-    height: 595px;
     display: grid;
     place-content: space-between start;
     box-sizing: content-box;
@@ -211,8 +212,8 @@
     background-color: black;
     background-position: center;
     border-radius: 100%;
-    Width:240px;
-    Height:240px;
+    width:240px;
+    height:240px;
     margin: 35px 72px 320px 47px;
     display: flex;
     grid-column: 1/2;
@@ -227,21 +228,22 @@
   .about__title {
     font-size: 40px;
     width: 291px;
-    height: 47px;
+    line-height: initial;
     margin: 3px 402px 100px 0px;
+    text-transform: uppercase;
   }
-  .about__text {
+  .about__column {
     display: flex;
     grid-column: 2/3;
     width: 693px;
-    height: 449px;
+    line-height: initial;
     margin-top: 133px;
     font-size: 20px;
     text-align: left;
     flex-direction: column;
     align-items: flex-end;
   }
-  .text_1 {
+  .about__text {
     margin-bottom: 24px;
     width: 688px;
     text-align: left;
@@ -253,23 +255,19 @@
     align-items: start;
     justify-items: center;
     width: 1000px;
-    height: 98px;
+    min-height: 98px;
     padding: 0px 50px 88px;
   }
   .footer__address {
-    text-underline-offset: 5px;
-    letter-spacing: 0.01em;
-    Width: 240.52px;
-    Height: 98px;
-    size: 18px;
+    margin-top: 1px;
     font-style: normal;
   }
   .footer {
     list-style-type: none;
-    Width: 149px;
-    Height: 64px;
+    width: 149px;
+    min-height: 64px;
     text-align: center;
-    line-height: 22px;
+    line-height: initial;
     letter-spacing: 0.01em;
     text-underline-offset: 4px;
   }
