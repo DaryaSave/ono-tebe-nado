@@ -35,7 +35,6 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
-  letter-spacing: 0.02em;
   text-underline-offset: 5px;
 }
 .header__address {
@@ -80,8 +79,7 @@
     font-weight: 700;
     letter-spacing: 0.3em;
     text-align: left;
-    width: 417px;
-    line-height: inherit;
+    line-height: 100px;
   }
   .letter-spacing-extended {
     margin-left: 30px;
@@ -90,7 +88,7 @@
     margin-right: 30px;
   }
   .aligned-text_center {
-    margin:20px 395px 10px 286px;
+    margin:25px 345px 10px 286px;
     text-align: center;
   }
   .aligned-text_right {
@@ -246,6 +244,7 @@
   .about__text {
     text-align: left;
     size: 20px;
+    line-height: 24px;
   }
   .text {
     margin-bottom: 24px;
