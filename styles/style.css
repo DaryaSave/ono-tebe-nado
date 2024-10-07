@@ -43,6 +43,7 @@
     width: 240.52px;
     height: 98px;
     line-height: 24.3px;
+    font-size: 18px;
 }
 .cover {
     background-image: url(../images/cover.jpg);
@@ -261,12 +262,12 @@
     padding: 0px 50px 88px;
   }
   .footer__address {
-    margin-top: 1px;
     font-style: normal;
     text-underline-offset: 5px;
     width: 240.52px;
     height: 98px;
     line-height: 24.3px;
+    font-size: 18px;
   }
   .footer {
     list-style-type: none;
