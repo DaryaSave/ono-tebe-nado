@@ -213,7 +213,7 @@
     border-radius: 100%;
     width:240px;
     height:240px;
-    margin: 35px 72px 320px 47px;
+    margin: 35px 72px 0 47px;
     display: flex;
     grid-column: 1/2;
   }
